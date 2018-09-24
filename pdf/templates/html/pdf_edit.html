@@ -1,0 +1,59 @@
+{% load i18n %}
+{% load l10n %}
+
+
+<div class="wrapper-comp-settings editor-with-buttons is-active" id="settings-tab">
+  <ul class="list-input settings-list">
+
+    <li class="field comp-setting-entry is-set">
+      <div class="wrapper-comp-setting">
+        <label class="label setting-label" for="pdf_edit_display_name">{% trans "Name" %}</label>
+        <input class="input setting-input" id="pdf_edit_display_name" value="{{ display_name }}" type="text">
+      </div>
+      <span class="tip setting-help">{% trans "This name appears in the horizontal navigation at the top of the page." %}</span>
+    </li>
+
+    <li class="field comp-setting-entry is-set">
+      <div class="wrapper-comp-setting">
+        <label class="label setting-label" for="pdf_edit_url">{% trans "PDF URL" %}</label>
+        <input class="input setting-input" id="pdf_edit_url" value="{{ url }}" type="text">
+      </div>
+      <span class="tip setting-help">{% trans "The URL of the PDF file" %}</span>
+    </li>
+
+    <li class="field comp-setting-entry is-set">
+      <div class="wrapper-comp-setting">
+        <label class="label setting-label" for="pdf_edit_allow_download">{% trans "PDF Download Allowed" %}</label>
+        <select class="input setting-input" id="pdf_edit_allow_download">
+          <option value="True" {% if allow_download %}selected{% endif %}>{% trans "True" %}</option>
+          <option value="False" {% if not allow_download %}selected{% endif %}>{% trans "False" $}</option>
+        </select>
+      </div>
+      <span class="tip setting-help">{% trans "Display a download button for this PDF." %}</span>
+    </li
+
+    <li class="field comp-setting-entry is-set">
+      <div class="wrapper-comp-setting">
+        <label class="label setting-label" for="pdf_edit_source_text">{% trans "Source document button text" %}</label>
+        <input class="input setting-input" id="pdf_edit_source_text" value="{{ source_text }}" type="text" placeholder=" {% trans 'Default : Download the source document' %}">
+      </div>
+      <div class="wrapper-comp-setting">
+        <label class="label setting-label" for="pdf_edit_source_url">{% trans "Source document URL" %}</label>
+        <input class="input setting-input" id="pdf_edit_source_url" value="{{ source_url }}" type="text">
+      </div>
+      <span class="tip setting-help">{% trans "Add the source document of your PDF (Powerpoint file, ...)" %}</span>
+    </li>
+
+  </ul>
+
+  <div class="xblock-actions">
+    <ul>
+      <li class="action-item">
+        <a href="#" class="button action-primary action-save">{% trans "Register" %}</a>
+      </li>
+      <li class="action-item">
+        <a href="#" class="button action-cancel">{% trans "Cancel" %}</a>
+      </li>
+    </ul>
+  </div>
+</div>
