@@ -20,11 +20,11 @@ msgstr ""
 
 #: pdf/pdf.py:32 pdf/static/html/pdf_edit.html:7
 msgid "Display Name"
-msgstr "Nome de exibição"
+msgstr "Exibir Nome"
 
 #: pdf/pdf.py:33
 msgid "PDF"
-msgstr ""
+msgstr "PDF"
 
 #: pdf/pdf.py:35 pdf/static/html/pdf_edit.html:10
 msgid "This name appears in the horizontal navigation at the top of the page."
@@ -32,37 +32,39 @@ msgstr "Este nome aparece na navegação horizontal no alto da página"
 
 #: pdf/pdf.py:37 pdf/static/html/pdf_edit.html:15
 msgid "PDF URL"
-msgstr ""
+msgstr "URL do PDF"
 
 #: pdf/pdf.py:38
 msgid "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
-msgstr ""
+msgstr "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
 
 #: pdf/pdf.py:40 pdf/static/html/pdf_edit.html:18
 msgid "The URL for your PDF."
-msgstr ""
+msgstr "A URL para o seu PDF"
 
 #: pdf/pdf.py:42 pdf/static/html/pdf_edit.html:23
 msgid "PDF Download Allowed"
-msgstr ""
+msgstr "Permitir baixar PDF"
 
 #: pdf/pdf.py:45 pdf/static/html/pdf_edit.html:29
 msgid "Display a download button for this PDF."
-msgstr ""
+msgstr "Exibir um botão de baixar para este PDF"
 
 #: pdf/pdf.py:47 pdf/static/html/pdf_edit.html:34
 msgid "Source document button text"
-msgstr ""
+msgstr "Texto do botão do documento de origem"
 
 #: pdf/pdf.py:50 pdf/pdf.py:55 pdf/static/html/pdf_edit.html:41
 msgid ""
 "Add a download link for the source file of your PDF. Use it for example to "
 "provide the PowerPoint file used to create this PDF."
 msgstr ""
+"Adicione um link para baixar o arquivo de origem do seu PDF. Use, por "
+"exemplo, para fornecer o arquivo do PowerPoint usado ao criar este PDF."
 
 #: pdf/pdf.py:52 pdf/static/html/pdf_edit.html:38
 msgid "Source document URL"
-msgstr ""
+msgstr "URL do documento de origem"
 
 #: pdf/static/html/pdf_edit.html:25
 msgid "True"
@@ -74,7 +76,7 @@ msgstr "Falso"
 
 #: pdf/static/html/pdf_edit.html:35
 msgid "Default : Download the source document"
-msgstr ""
+msgstr "Padrão: Baixar o documento de origem"
 
 #: pdf/static/html/pdf_edit.html:49
 msgid "Save"
@@ -86,12 +88,12 @@ msgstr "Cancelar"
 
 #: pdf/static/html/pdf_view.html:6
 msgid "It appears you don't have a PDF plugin for this browser."
-msgstr ""
+msgstr "Parece que você não tem um plugin de PDF para este browser"
 
 #: pdf/static/html/pdf_view.html:13
 msgid "Download the PDF"
-msgstr ""
+msgstr "Baixar o PDF"
 
 #: pdf/static/html/pdf_view.html:18
 msgid "Download the source document"
-msgstr ""
+msgstr "Baixar o documento de origem"
