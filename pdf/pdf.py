@@ -7,6 +7,7 @@ from xblock.core import XBlock
 from xblock.fields import Scope, String, Boolean
 from xblock.fragment import Fragment
 
+from .utils import _
 
 class PdfBlock(XBlock):
 
@@ -19,40 +20,44 @@ class PdfBlock(XBlock):
     Fields
     '''
     display_name = String(
-        display_name="Display Name",
-        default="PDF",
+        display_name=_("Display Name"),
+        default=_("PDF"),
         scope=Scope.settings,
-        help="This name appears in the horizontal navigation at the top of the page."
+        help=_("This name appears in the horizontal navigation at the top of the page.")
     )
 
     url = String(
-        display_name="PDF URL",
-        default="http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf",
+        display_name=_("PDF URL"),
+        default=_("http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"),
         scope=Scope.content,
-        help="The URL for your PDF."
+        help=_("The URL for your PDF.")
     )
 
     allow_download = Boolean(
-        display_name="PDF Download Allowed",
+        display_name=_("PDF Download Allowed"),
         default=True,
         scope=Scope.content,
-        help="Display a download button for this PDF."
+        help=_("Display a download button for this PDF.")
     )
 
     source_text = String(
-        display_name="Source document button text",
+        display_name=_("Source document button text"),
         default="",
         scope=Scope.content,
-        help="Add a download link for the source file of your PDF. "
+        help=_(
+            "Add a download link for the source file of your PDF. "
              "Use it for example to provide the PowerPoint file used to create this PDF."
+        )
     )
 
     source_url = String(
-        display_name="Source document URL",
+        display_name=_("Source document URL"),
         default="",
         scope=Scope.content,
-        help="Add a download link for the source file of your PDF. "
+        help=_(
+            "Add a download link for the source file of your PDF. "
              "Use it for example to provide the PowerPoint file used to create this PDF."
+        )
     )
 
     '''
