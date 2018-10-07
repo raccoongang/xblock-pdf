@@ -1,7 +1,6 @@
 {% load i18n %}
 {% load l10n %}
 
-
 <div class="wrapper-comp-settings editor-with-buttons is-active" id="settings-tab">
   <ul class="list-input settings-list">
 
@@ -26,7 +25,7 @@
         <label class="label setting-label" for="pdf_edit_allow_download">{% trans "PDF Download Allowed" %}</label>
         <select class="input setting-input" id="pdf_edit_allow_download">
           <option value="True" {% if allow_download %}selected{% endif %}>{% trans "True" %}</option>
-          <option value="False" {% if not allow_download %}selected{% endif %}>{% trans "False" $}</option>
+          <option value="False" {% if not allow_download %}selected{% endif %}>{% trans "False" %}</option>
         </select>
       </div>
       <span class="tip setting-help">{% trans "Display a download button for this PDF." %}</span>
