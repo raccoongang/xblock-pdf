@@ -104,7 +104,11 @@ class PdfBlock(
             'source_url': self.source_url,
             '_i18n_service': self.i18n_service
         }
-        html = self.render_template('templates/html/pdf_view.html', context)
+        html = loader.render_django_template(
+            'templates/html/pdf_view.html',
+            context=context,
+            i18n_service=self.i18n_service,
+        )
 
         event_type = 'edx.pdf.loaded'
         event_data = {
@@ -130,7 +134,11 @@ class PdfBlock(
             'source_text': self.source_text,
             'source_url': self.source_url
         }
-        html = self.render_template('templates/html/pdf_edit.html', context)
+        html = loader.render_django_template(
+            'templates/html/pdf_edit.html',
+            context=context,
+            i18n_service=self.i18n_service,
+        )
         frag = Fragment(html)
         frag.add_javascript(self.load_resource("static/js/pdf_edit.js"))
         frag.initialize_js('pdfXBlockInitEdit')

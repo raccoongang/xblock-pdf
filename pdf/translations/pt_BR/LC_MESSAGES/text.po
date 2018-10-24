@@ -39,8 +39,8 @@ msgid "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
 msgstr "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
 
 #: pdf/pdf.py:40 pdf/static/html/pdf_edit.html:18
-msgid "The URL for your PDF."
-msgstr "A URL para o seu PDF"
+msgid "The URL of the PDF file"
+msgstr "O URL para o seu arquivo PDF"
 
 #: pdf/pdf.py:42 pdf/static/html/pdf_edit.html:23
 msgid "PDF Download Allowed"
