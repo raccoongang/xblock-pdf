@@ -86,12 +86,12 @@ msgstr "إلغاء"
 
 #: pdf/static/html/pdf_view.html:6
 msgid "It appears you don't have a PDF plugin for this browser."
-msgstr ""
+msgstr "يبدو أنك لا تملك ملحق PDF لهذا المتصفح."
 
 #: pdf/static/html/pdf_view.html:13
 msgid "Download the PDF"
-msgstr ""
+msgstr "قم بتنزيل ملف PDF"
 
 #: pdf/static/html/pdf_view.html:18
 msgid "Download the source document"
-msgstr ""
+msgstr "قم بتنزيل المستند المصدر"
