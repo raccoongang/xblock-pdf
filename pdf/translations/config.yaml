@@ -1,0 +1,8 @@
+# Configuration for i18n workflow.
+ locales:
+    - ar
+    - en  # English - Source Language
+    - pt_BR  # Portuguese (Brazil)
+ # The locales used for fake-accented English, for testing.
+#dummy_locales:
+#    - eo
