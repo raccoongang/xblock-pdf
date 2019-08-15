@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Etienne Laurin <etienne.laurin@gmail.com>, 2018
+# Pierre Mailhot <pierre.mailhot@gmail.com>, 2019
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-06 15:43+0300\n"
+"PO-Revision-Date: 2018-09-06 12:43+0000\n"
+"Last-Translator: Pierre Mailhot <pierre.mailhot@gmail.com>, 2019\n"
+"Language-Team: French (Canada) (https://www.transifex.com/open-edx/teams/6205/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pdf/pdf.py:32 pdf/static/html/pdf_edit.html:7
+msgid "Display Name"
+msgstr "Nom d'affichage"
+
+#: pdf/pdf.py:33
+msgid "PDF"
+msgstr "PDF"
+
+#: pdf/pdf.py:35 pdf/static/html/pdf_edit.html:10
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr "Ce nom apparaît dans la navigation horizontale au haut de la page."
+
+#: pdf/pdf.py:37 pdf/static/html/pdf_edit.html:15
+msgid "PDF URL"
+msgstr "URL du PDF"
+
+#: pdf/pdf.py:38
+msgid "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
+msgstr "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
+
+#: pdf/pdf.py:40 pdf/static/html/pdf_edit.html:18
+msgid "The URL for your PDF."
+msgstr "Le URL pour votre PDF."
+
+#: pdf/pdf.py:42 pdf/static/html/pdf_edit.html:23
+msgid "PDF Download Allowed"
+msgstr "Téléchargement PDF autorisé"
+
+#: pdf/pdf.py:45 pdf/static/html/pdf_edit.html:29
+msgid "Display a download button for this PDF."
+msgstr "Afficher un bouton de téléchargement pour ce PDF."
+
+#: pdf/pdf.py:47 pdf/static/html/pdf_edit.html:34
+msgid "Source document button text"
+msgstr "Texte du bouton du document source"
+
+#: pdf/pdf.py:50 pdf/pdf.py:55 pdf/static/html/pdf_edit.html:41
+msgid ""
+"Add a download link for the source file of your PDF. Use it for example to "
+"provide the PowerPoint file used to create this PDF."
+msgstr ""
+"Ajoutez un lien de téléchargement pour le fichier source de votre PDF. "
+"Utilisez-le par exemple pour fournir le fichier PowerPoint utilisé pour "
+"créer ce PDF."
+
+#: pdf/pdf.py:52 pdf/static/html/pdf_edit.html:38
+msgid "Source document URL"
+msgstr "URL du document source"
+
+#: pdf/static/html/pdf_edit.html:25
+msgid "True"
+msgstr "Vrai"
+
+#: pdf/static/html/pdf_edit.html:26
+msgid "False"
+msgstr "Faux"
+
+#: pdf/static/html/pdf_edit.html:35
+msgid "Default : Download the source document"
+msgstr "Défaut : Téléchargez le document source"
+
+#: pdf/static/html/pdf_edit.html:49
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: pdf/static/html/pdf_edit.html:52
+msgid "Cancel"
+msgstr "Annuler"
+
+#: pdf/static/html/pdf_view.html:6
+msgid "It appears you don't have a PDF plugin for this browser."
+msgstr "Il semble que vous n’ayez pas de plug-in PDF pour ce navigateur."
+
+#: pdf/static/html/pdf_view.html:13
+msgid "Download the PDF"
+msgstr "Téléchargez le PDF"
+
+#: pdf/static/html/pdf_view.html:18
+msgid "Download the source document"
+msgstr "Téléchargez le document source"
