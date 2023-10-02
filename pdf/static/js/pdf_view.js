@@ -13,5 +13,14 @@ function pdfXBlockInitView(runtime, element) {
             var handlerUrl = runtime.handlerUrl(element, 'on_download');
             $.post(handlerUrl, '{}');
         });
+
+        /*
+         * <object> tag shows only first page in iPad, iPhone and iPod
+         * 'View PDF' option will appear in these devices to view pdf in new tab */
+
+        let isRetinaDevice = /iPad|iPhone|iPod/.test(navigator.userAgent);
+        if (isRetinaDevice) {
+            $('.pdf-view-button').show();
+        }
     });
 }

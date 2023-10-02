@@ -11,6 +11,9 @@
   {% if allow_download or source_url != "" %}
   <ul>
     {% if allow_download %}
+    <li class="pdf-view-button" style="display: none;">
+      <a href="{{ url }}" target="_blank">{% trans "View PDF" %}</a>
+    </li>
     <li class="pdf-download-button">
       <a href="{{ url }}" download>{% trans "Download the PDF" %}</a>
     </li>
