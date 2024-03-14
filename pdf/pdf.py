@@ -162,7 +162,10 @@ class PdfBlock(
         The saving handler.
         """
         self.display_name = data['display_name']
-        self.url = data['url']
+        if not data['url'].startswith('http://') and not data['url'].startswith('https://'):
+            self.url = 'http://' + data['url']
+        else:
+            self.url = data['url']
         self.allow_download = True if data['allow_download'] == "True" else False  # Str to Bool translation
         self.source_text = data['source_text']
         self.source_url = data['source_url']
