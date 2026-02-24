@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-06 15:43+0300\n"
+"PO-Revision-Date: 2026-02-23 18:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: pdf/pdf.py:32 pdf/static/html/pdf_edit.html:7
+msgid "Display Name"
+msgstr "显示名称"
+
+#: pdf/pdf.py:33
+msgid "PDF"
+msgstr "PDF"
+
+#: pdf/pdf.py:35 pdf/static/html/pdf_edit.html:10
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr "此名称将显示在页面顶部的水平导航栏中。"
+
+#: pdf/pdf.py:37 pdf/static/html/pdf_edit.html:15
+msgid "PDF URL"
+msgstr "PDF 链接"
+
+#: pdf/pdf.py:38
+msgid "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
+msgstr "http://tutorial.math.lamar.edu/pdf/Trig_Cheat_Sheet.pdf"
+
+#: pdf/pdf.py:40 pdf/static/html/pdf_edit.html:18
+msgid "The URL for your PDF."
+msgstr "您的 PDF 文件的 URL 链接。"
+
+#: pdf/pdf.py:42 pdf/static/html/pdf_edit.html:23
+msgid "PDF Download Allowed"
+msgstr "允许下载 PDF"
+
+#: pdf/pdf.py:45 pdf/static/html/pdf_edit.html:29
+msgid "Display a download button for this PDF."
+msgstr "为此 PDF 显示下载按钮。"
+
+#: pdf/pdf.py:47 pdf/static/html/pdf_edit.html:34
+msgid "Source document button text"
+msgstr "源文档按钮文本"
+
+#: pdf/pdf.py:50 pdf/pdf.py:55 pdf/static/html/pdf_edit.html:41
+msgid ""
+"Add a download link for the source file of your PDF. Use it for example to "
+"provide the PowerPoint file used to create this PDF."
+msgstr ""
+"为您的 PDF 源文件添加下载链接。例如，可以用来提供用于创建此 PDF 的 PowerPoint 文件。"
+
+#: pdf/pdf.py:52 pdf/static/html/pdf_edit.html:38
+msgid "Source document URL"
+msgstr "源文档 URL"
+
+#: pdf/static/html/pdf_edit.html:25
+msgid "True"
+msgstr "是"
+
+#: pdf/static/html/pdf_edit.html:26
+msgid "False"
+msgstr "否"
+
+#: pdf/static/html/pdf_edit.html:35
+msgid "Default : Download the source document"
+msgstr "默认值：下载源文档"
+
+#: pdf/static/html/pdf_edit.html:49
+msgid "Save"
+msgstr "保存"
+
+#: pdf/static/html/pdf_edit.html:51
+msgid "Register"
+msgstr "登记"
+
+#: pdf/static/html/pdf_edit.html:52
+msgid "Cancel"
+msgstr "取消"
+
+#: pdf/static/html/pdf_view.html:6
+msgid "It appears you don't have a PDF plugin for this browser."
+msgstr "看来您的浏览器未安装 PDF 插件。"
+
+#: pdf/static/html/pdf_view.html:13
+msgid "Download the PDF"
+msgstr "下载 PDF"
+
+#: pdf/static/html/pdf_view.html:18
+msgid "Download the source document"
+msgstr "下载源文档"
